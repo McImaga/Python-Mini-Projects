@@ -3,7 +3,7 @@ def validate_mail(email):
 
 
 def write_log(message):
-    with open (r"C:\Users\McImaga\Desktop\playground\04-email-validator\email activity.log", 'a') as file:
+    with open (r"C:\Users\McImaga\Desktop\playground\Python-Mini-Projects\04-email-validator\email activity.log", 'a') as file:
         file.write(message + '\n\n')
 
 
